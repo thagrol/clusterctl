@@ -18,5 +18,5 @@ echo out > /sys/class/gpio/gpio13/direction
 echo 19 > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio19/direction
 # P4
-#echo 26 > /sys/class/gpio/export
-#echo out > /sys/class/gpio/gpio26/direction
+echo 26 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio26/direction
