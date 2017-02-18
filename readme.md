@@ -1,3 +1,6 @@
+**As of 2017-01-17 clusterctl.py does not work with the 2017-01-11 images from clusterhat.com.
+This appears to be due to a change in the network config in the images.**
+
 clusterctl.py
 =============
 
@@ -8,12 +11,15 @@ While their clusterhat script provides power control of attached pi zeros, it do
 Assumptions & Requirements
 -----------
 1. Controller pi and pi zeros have been setup using the images from clusterhat.com
-2. Pi zeros have been configured to allow ssh and passwordless login via keys from the controlling pi.
+2. The python-pip and python-gpiozero packages have been installed on the controller pi.
+3. Pi zeros have been configured to allow ssh and passwordless login via keys from the controlling pi.
 
 Installation
 ------------
 1. Download gpiosetup.sh and clusterctl.py
 2. Configure raspbian such that root runs gpiosetup.sh at each boot.
+
+More detailed instructions can be found in install.md
 
 Configuration
 -------------
