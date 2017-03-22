@@ -1,6 +1,3 @@
-**As of 2017-01-17 clusterctl.py does not work with the 2017-01-11 images from clusterhat.com.
-This appears to be due to a change in the network config in the images.**
-
 clusterctl.py
 =============
 
