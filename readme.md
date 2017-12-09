@@ -1,6 +1,8 @@
 clusterctl.py
 =============
 
+**Due to hardware changes power control (--hard option) is not functional on the v2 clusterhat**
+
 Slightly improved control script for 8086.net's clusterhat.
 
 While their clusterhat script provides power control of attached pi zeros, it does not provide for clean shutdown of them before removing power. This script attempt to provide this.
